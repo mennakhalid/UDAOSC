@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+ 
+#website_img{
+    width:150px;
+    height:150px;
+    
+}
+
+#website_name{
+   font-family: Apple Chancery, cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card1 {
+    /* just in case there no content*/
+    margin: 0 auto 25px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 6px -6px 52px rgba(0, 0, 0, 0.3);
+    padding: 32px 48px 0px 48px; 
+    display:inline-block;
+}
+
+
+.input-field input[type=date]:focus + label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label,
+.input-field input[type=tel]:focus + label{
+  color: #000;
+}
+
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus ,
+.input-field input[type=tel]:focus {
+  border-bottom: 2px solid #000;
+  box-shadow: none;
+}
+
+
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=tel]{
+   border-bottom-color: black
+}
+
+#mail,#pass,#first_name,#last_name,#name,#age,#phone,#con_pass,#birth,#icon_telephone{
+    color:black
+}
+
+.colory{
+    background-color:#38403f;
+}
+
+
